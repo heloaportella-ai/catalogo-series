@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <h1>Cadastro</h1>
+
+    <form>
+
+        <label for="nomeLivro">Nome do Livro:</label><br>
+        <input 
+            type="text" 
+            id="nomeLivro" 
+            name="nomeLivro" 
+            required
+        ><br><br>
+
+        <label for="imagemLivro">Imagem do Livro:</label><br>
+        <input 
+            type="url" 
+            id="imagemLivro" 
+            name="imagemLivro" 
+            placeholder="URL"
+            required
+        ><br><br>
+
+        <label for="nomeAutora">Nome da Autora:</label><br>
+        <input 
+            type="text" 
+            id="nomeAutora" 
+            name="nomeAutora" 
+            required
+        ><br><br>
+
+        <label for="anoPublicacao">Ano de Publicação:</label><br>
+        <input 
+            type="number" 
+            id="anoPublicacao" 
+            name="anoPublicacao" 
+            required
+        ><br><br>
+
+        <button type="submit">Adicionar</button>
+
+    </form>
+
+</body>
+</html>
