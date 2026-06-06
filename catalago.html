@@ -1,43 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-  <title>Catálogo de Séries</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Encanto Literário</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <header>
-    <h1>🎬 Catálogo de Séries</h1>
-    <nav>
-      <a href="#">Início</a>
-      <a href="#">Sobre</a>
-    </nav>
-  </header>
+    <header>
+        <h1>Encanto Literário</h1>
+    </header>
 
-  <p class="descricao">Catálogo de séries para você escolher e assistir.</p>
+    <main>
 
-  <div class="container">
+        <!-- CATÁLOGO -->
 
-    <div class="serie">
-      <img src="https://upload.wikimedia.org/wikipedia/pt/1/1e/Cobra_Kai_season_1.jpg">
-      <h2>Cobra Kai</h2>
-      <p>Continuação de Karatê Kid com muita ação e rivalidade.</p>
-    </div>
+        <section class="catalogo">
 
-    <div class="serie">
-      <img src="https://upload.wikimedia.org/wikipedia/pt/0/0a/Stranger_Things_Season_3.jpg">
-      <h2>Stranger Things</h2>
-      <p>Série de mistério com muitas aventuras.</p>
-    </div>
+            <!-- CARD 1 -->
 
-    <div class="serie">
-      <img src="https://upload.wikimedia.org/wikipedia/pt/9/9e/La_casa_de_papel.jpg">
-      <h2>One piece</h2>
-      <p>Live action do anime One piece.</p>
-    </div>
+            <div class="card">
 
-  </div>
+                <div class="foto"></div>
+
+                <script>
+                    const card1 = {
+                        titulo: "Eu e Esse Meu Coração",
+                        imagem: "imagem1.jpg",
+                        autora: "C.C. Hunter",
+                        ano: 2018
+                    };
+                </script>
+
+                <h2>Eu e Esse Meu Coração</h2>
+
+                <p>C.C. Hunter, 2018</p>
+
+            </div>
+
+            <!-- CARD 2 -->
+
+            <div class="card">
+
+                <div class="foto"></div>
+
+                <script>
+                    const card2 = {
+                        titulo: "Amor e Gelato",
+                        imagem: "imagem2.jpg",
+                        autora: "Jenna Evans Welch",
+                        ano: 2016
+                    };
+                </script>
+
+                <h2>Amor e Gelato</h2>
+
+                <p>Jenna Evans Welch, 2016</p>
+
+            </div>
+
+            <!-- CARD 3 -->
+
+            <div class="card">
+
+                <div class="foto"></div>
+
+                <script>
+                    const card3 = {
+                        titulo: "Oceano Entre Nós",
+                        imagem: "imagem3.jpg",
+                        autora: "Tahereh Mafi",
+                        ano: 2021
+                    };
+                </script>
+
+                <h2>Oceano Entre Nós</h2>
+
+                <p>Tahereh Mafi, 2021</p>
+
+            </div>
+
+            <!-- CARD 4 -->
+
+            <div class="card">
+
+                <div class="foto"></div>
+
+                <script>
+                    const card4 = {
+                        titulo: "Amor e Sorte",
+                        imagem: "imagem4.jpg",
+                        autora: "Jenna Evans Welch",
+                        ano: 2020
+                    };
+                </script>
+
+                <h2>Amor e Sorte</h2>
+
+                <p>Jenna Evans Welch, 2020</p>
+
+            </div>
+
+        </section>
+
+    </main>
 
 </body>
 </html>
-
